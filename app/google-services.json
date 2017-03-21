@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "119714068357",
+    "firebase_url": "https://bhamashah-bf88c.firebaseio.com",
+    "project_id": "bhamashah-bf88c",
+    "storage_bucket": "bhamashah-bf88c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119714068357:android:4a99414a8733c1f2",
+        "android_client_info": {
+          "package_name": "com.aadityasaini.kingofhackers.bhamashah_koh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119714068357-mt5k6ithtt8ebmrpoptgnn8n1e6l29ml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-6upFt_gQUdllzca0k_DGB7Auk1tfXHw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

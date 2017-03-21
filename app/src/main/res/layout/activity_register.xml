@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:background="@drawable/register_back"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.aadityasaini.kingofhackers.bhamashah_koh.RegisterActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView"
+        android:layout_weight="0.16"
+        android:text="Register here:" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="number"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:hint="Enter your Aadhar number"
+        android:background="#fff"
+        android:id="@+id/aadhar"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="number"
+        android:gravity="center"
+        android:hint="Bank A/C no"
+        android:background="#fff"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/aadhar"
+        android:id="@+id/bankno"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="phone"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:hint="Phone No(Mandatory)"
+        android:layout_below="@+id/bankno"
+        android:background="#fff"
+        android:id="@+id/phone"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your Location"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Next"
+        android:background="#fff706"
+        android:id="@+id/nextbutton" />
+
+</LinearLayout>
